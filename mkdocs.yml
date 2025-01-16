@@ -1,4 +1,52 @@
 site_name: FHIR Aggregator
-site_url: https://mydomain.org/mysite
+site_url: https://fhir-aggregator.readthedocs.io/
+repo_url: https://github.com/FHIR-Aggregator/helpdesk
+
 theme:
+  #logo: 
   name: material
+  custom_dir: overrides
+  font:
+    text: noto sans
+  docs_dir: docs
+  palette: slate
+  features:
+    - toc.integrate
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.sections
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.annotate
+    - announce.dismiss
+    - content.code.copy
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      remove_tag_config:
+          remove_input_tags:
+              - hide_code
+      include_source: True
+      execute: True #make false to render site quickly by not running notebook code
+      allow_errors: True #make false to validate all notebook code works
+
+markdown_extensions:
+
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
