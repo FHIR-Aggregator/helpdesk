@@ -1,5 +1,5 @@
 ---
-title:  FHIR-Aggregator - A Catalog of Research Data
+title:  #FHIR-Aggregator - A Catalog of Research Data
 
 ---
 
@@ -19,7 +19,7 @@ The FHIR Aggregator acts as a centralized repository for diverse healthcare data
 
     ---
 
-    Fill in the blanks in our pre-built queries to find the data you need without installing a thing. Find the data you need, fetch all the files, and run your favorite bioinformatics pipeline *all without ever touching the command line.*<p>
+    Fill in the blanks in our pre-built queries to find the data you need without installing a thing. Find the data you need, fetch all the files, and answer your scientific questions *all without ever touching the command line.*<p>
 <a href="https://colab.research.google.com/github/FHIR-Aggregator/helpdesk/tree/main/docs/Welcome.ipynb" title="Try it now" class="md-button md-button">Launch FHIR-Aggregator in the cloud
 </a></p>
 

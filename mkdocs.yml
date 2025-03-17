@@ -50,3 +50,58 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
+
+ # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+
+nav:
+  - Getting Started:
+    - getting_started/index.md
+    - getting_started/no-install.md
+    - getting_started/install.md
+  - Documentation:
+    - Quick Reference: documentation/cdapython/man_pages/index.ipynb
+    - tables(): documentation/cdapython/man_pages/tables.md
+    - columns(): documentation/cdapython/man_pages/columns.md
+    - column_values(): documentation/cdapython/man_pages/column_values.md
+    - summary_counts(): documentation/cdapython/man_pages/summary_counts.md
+    - fetch_rows(): documentation/cdapython/man_pages/fetch_rows.md
+    - update code from cdapython beta: documentation/cdapython/code_update.md
+    - FAQ: documentation/cdapython/man_pages/faq.md
+  - Vignettes:
+    - Conceptual Overview: documentation/cdapython/vignettes/index.md
+    - FAQ: documentation/cdapython/man_pages/faq.md
+    - Get a manifest of all CPTAC data: documentation/cdapython/vignettes/001_cptac.ipynb
+    - View a summary of available .bam files: documentation/cdapython/vignettes/002_sum_bams.ipynb
+    - Get a manifest of patients with both vcf and image files: documentation/cdapython/vignettes/003_vcf_image.ipynb
+    - View the cancer types for subjects over 50 at diagnosis: documentation/cdapython/vignettes/004_over50.ipynb
+    - Find subjects with data at multiple data centers: documentation/cdapython/vignettes/009_multidcsubject.ipynb
+    - Find subjects using a file as search input: documentation/cdapython/vignettes/008_multidc-from-file.ipynb
+  - About Us:
+    - about_us/index.md
+    - about_us/ourdata.md
+    - about_us/how_we_etal.md
+
