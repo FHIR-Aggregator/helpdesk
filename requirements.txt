@@ -5,3 +5,6 @@ mkdocs-jupyter
 itables
 git+https://github.com/FHIR-Aggregator/fhir-query.git
 lifelines
+jq
+matplotlib
+seaborn

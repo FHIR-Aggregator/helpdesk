@@ -1,15 +1,18 @@
 site_name: FHIR Aggregator
+site_description: Search with FHIR
 site_url: https://fhir-aggregator.readthedocs.io/
 repo_url: https://github.com/FHIR-Aggregator/helpdesk
 
 theme:
-  #logo: 
+  logo: assets/home.svg
   name: material
   custom_dir: overrides
   font:
     text: noto sans
   docs_dir: docs
-  palette: slate
+  palette: 
+    primary: teal
+    accent: teal
   features:
     - toc.integrate
     - navigation.tabs
@@ -78,28 +81,19 @@ markdown_extensions:
 
 
 nav:
+  - index.md
   - Getting Started:
     - getting_started/index.md
-    - getting_started/no-install.md
-    - getting_started/install.md
+    - Query in the Cloud: getting_started/cloud.md
+    - Download our query tool: getting_started/install.md
+    - Query with curl: getting_started/curl.ipynb
   - Documentation:
-    - Quick Reference: documentation/cdapython/man_pages/index.ipynb
-    - tables(): documentation/cdapython/man_pages/tables.md
-    - columns(): documentation/cdapython/man_pages/columns.md
-    - column_values(): documentation/cdapython/man_pages/column_values.md
-    - summary_counts(): documentation/cdapython/man_pages/summary_counts.md
-    - fetch_rows(): documentation/cdapython/man_pages/fetch_rows.md
-    - update code from cdapython beta: documentation/cdapython/code_update.md
-    - FAQ: documentation/cdapython/man_pages/faq.md
-  - Vignettes:
-    - Conceptual Overview: documentation/cdapython/vignettes/index.md
-    - FAQ: documentation/cdapython/man_pages/faq.md
-    - Get a manifest of all CPTAC data: documentation/cdapython/vignettes/001_cptac.ipynb
-    - View a summary of available .bam files: documentation/cdapython/vignettes/002_sum_bams.ipynb
-    - Get a manifest of patients with both vcf and image files: documentation/cdapython/vignettes/003_vcf_image.ipynb
-    - View the cancer types for subjects over 50 at diagnosis: documentation/cdapython/vignettes/004_over50.ipynb
-    - Find subjects with data at multiple data centers: documentation/cdapython/vignettes/009_multidcsubject.ipynb
-    - Find subjects using a file as search input: documentation/cdapython/vignettes/008_multidc-from-file.ipynb
+    - fhir-query man page: documentation/fhirqueryman.ipynb
+    - fhir-query: documentation/fhirquery.ipynb
+    - FHIR-Aggregator Vocabulary:
+       - Accessing the Vocabulary: documentation/vocabulary.ipynb
+       - Visualize search results: documentation/heatmaps.ipynb
+       - Using FHIR extensions: documentation/fhirextensions.ipynb
   - About Us:
     - about_us/index.md
     - about_us/ourdata.md

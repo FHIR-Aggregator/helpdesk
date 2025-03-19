@@ -1,87 +1,39 @@
+<!--
+  Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
 
-  {% extends "main.html" %}
-  {% block tabs %}
-    {{ super() }}
-    <style>
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
 
-      /* Hide table of contents */
-      @media screen and (min-width: 60em) {
-        .md-sidebar--secondary {
-          display: none;
-        }
-      }
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+{% extends "base.html" %}
+
+<!-- Render hero under tabs -->
+{% block tabs %}
   
-      /* Hide navigation */
-      @media screen and (min-width: 76.25em) {
-        .md-sidebar--primary {
-          display: none;
-        }
-        #container {
-          display: grid;
-          grid-template-columns: fit-content(1000px) 1fr;
-          grid-gap: 5px;
-          box-sizing: border-box;
-          height: 100%;
-          width: 100%;
-          padding: 10px;
-        }
 
-        #container > div {
-          padding: 5px;
-        }
-        .left {
-          left: 10px;
-        }
-      
+  <!-- Additional styles for landing page -->
+  <style>
 
-    
-
-    </style>
-
-
-      
-   
-         
-  {% endblock %}
-  {% block content %}
-
-  <div class="homepage">
-    <h1>A tool to search across National Cancer Institute datasets</h1>
-                <h2>{{ config.site_description }}. </h2>
-
-
-    <div id="container">
-      <div class="news">
-        <h1> News and Events </h1>
-        <hr>
-        <ul>
-        <li>Are you an existing user looking to update your code? Click here see what has changed</li>
-        <li><div id="newshere"> replace this text </div></li>
-
-      </ul>
-      </div>
-      <div>
-        <img src="./zoomed_official_image.jpg" alt="" width="800" height="400" draggable="false">
-      </div>
-      </div>
-
-      <div class="left">
-        <div class="md-grid md-typeset">
-      
-  <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
-                  Get Started! </a>
-              </div></div>
-            </div>
-
-  {% endblock %}
-  {% block footer %}{% endblock %}
-  {% block scripts %}
+    /* Application header should be static for the landing page */
+    .md-header {
+      position: initial;
+    }
+  </style>
   {{ super() }}
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script>
-  $(document).ready(function(){
-    $("#newshere").load('https://cda.readthedocs.io/en/mvp_release/release_notes/cdapython/ #available-march-31-2024');
-  });
-</script>
+{% endblock %}
 
-  {% endblock %}

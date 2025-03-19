@@ -6,14 +6,14 @@ title:  Local installation docs
 
 FHIR-Aggregator runs on:
 
-python versions >= 3.9
+python versions >= 3.12
 
 ## Pip install
 
 !!! requirements
 
     - terminal/command line
-    - python version >= 3.9 [(Install)](https://www.python.org/downloads/)
+    - python version >= 3.12 [(Install)](https://www.python.org/downloads/)
 
 
 1. In your terminal type:
