@@ -11,7 +11,7 @@ title:  ReSearch made simple
 
     ---
 
-    Fill in the blanks in our pre-built queries to find the data you need without installing a thing. Find the data you need, fetch all the files, and answer your scientific questions *all without ever touching the command line.*<p>
+    Use our pre-built queries to find the data you need without installing a thing. Simply replace the search terms with your term of interest and hit the 'play' button to run a query and answer your scientific questions *all without ever touching the command line.*<p>
 <a href="https://colab.research.google.com/github/FHIR-Aggregator/helpdesk/tree/main/docs/Welcome.ipynb" title="Try it now" class="md-button md-button">Launch FHIR-Aggregator in the cloud
 </a></p>
 
@@ -22,13 +22,15 @@ title:  ReSearch made simple
     Install `fhir-query`, our tool for easily searching FHIR databases,
     with `pip` and direct it to the fhir aggregator server to get up and running in no time
 
-    ```bash
+    ```bash title="in bash"
     pip install fhir-aggregator-client
     ```
 
-    ```python
+    ```py title="in python notebook"
 
     %env FHIR_BASE=https://google-fhir.fhir-aggregator.org
+
+    !fq --help
 
     ```
 
@@ -41,11 +43,8 @@ title:  ReSearch made simple
     Direct your command line to the 
     fhir aggregator server and query using your favorite file transfer tool
 
-    ```bash
+    ```bash title="in bash"
     pip install fhir-aggregator-client
-    ```
-
-    ```python
 
     %env FHIR_BASE=https://google-fhir.fhir-aggregator.org
 
