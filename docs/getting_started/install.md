@@ -1,5 +1,5 @@
 ---
-title:  Local installation docs
+title:  Download our query tool
 ---
 
 # Installation Guide
@@ -52,7 +52,7 @@ Start up python, and set an environment variable to point a FHIR server like FHI
 
 ```
 
-FHIR-Aggregator is a command line package, so to run commands in python 
+FHIR-Aggregator is a command line package, so to run commands in local python file 
 you will need to use export the `fq` command to the terminal using the `os` package:
 
 ```python
@@ -63,7 +63,7 @@ os.system('fq --help')
 
 ## Working in an interactive python notebook
 
-All of our documentation is all available as jupyter notebooks. To start a notebook server, go to your command line/terminal and type:
+All of our documentation are available as jupyter notebooks. To start a notebook server, go to your command line/terminal and type:
 
 ```bash
 jupyter notebook
@@ -78,7 +78,7 @@ Set an environment variable to point a FHIR server like FHIR-Aggregator:
 
 ```
 
-FHIR-Aggregator is a command line package, so to run commands in python you will need to add a ! in front of all your fq commands as in:
+FHIR-Aggregator is a command line package, so to run commands in python in a jupytr notebook context you will need to add a ! in front of all your fq commands as in:
 
 ```python
 !fq --help

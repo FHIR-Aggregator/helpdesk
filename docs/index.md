@@ -11,7 +11,7 @@ hide:
 
 <div>
 <h2 style="background-color:rgb(109, 172, 157, .5)"> FHIR-Aggregator: Your Catalog of Research Data</h2>
-Use the FHIR Aggregator server to search patient phenotypes across multiple biomedical resources and download their files
+Use the FHIR Aggregator server to search patient phenotypes across multiple biomedical resources and download their files.  
 
 The FHIR Aggregator server acts as a centralized repository for diverse healthcare data, organized using the FHIR (Fast Healthcare Interoperability Resources) standard. It provides researchers access to a wide range of information, including:
 
@@ -19,7 +19,7 @@ The FHIR Aggregator server acts as a centralized repository for diverse healthca
   <li>Clinical data: Patient demographics, conditions, medications, observations, and procedures.</li>
   <li>Research studies: Information about research projects, participants, and study protocols.</li>
   <li>OMICS data associated with Specimens</li>
-  <li>Learn more about the data sets we aggregate <a href="../about_us/ourdata.md">
+  <li>Learn more about the data sets we aggregate <a href="/about_us/ourdata.md">
      here</a> </li>
 </ul>
 </div>
@@ -30,7 +30,7 @@ The FHIR Aggregator server acts as a centralized repository for diverse healthca
 
 <h2 style="background-color:rgb(109, 172, 157, .5)">fhir-query: Your FHIR Querying Assistant</h2>
 
-Our command-line tool is designed to simplify the process of interacting with FHIR servers. It provides researchers with a convenient way to:
+Our command-line tool fhir-query (aka fq) is designed to simplify the process of interacting with FHIR servers. It provides researchers with a convenient way to:
 
 <ul>
   <li> Retrieve the vocabulary of a FHIR server: With the vocabulary command, fq fetches and summarizes the key data elements (CodeableConcepts and Extensions) used within the FHIR data. This creates a central vocabulary Dataframe that helps researchers identify important data elements and their usage within the server.</li>

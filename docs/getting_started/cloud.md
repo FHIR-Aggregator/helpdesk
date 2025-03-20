@@ -1,5 +1,5 @@
 ---
-title:  No installation docs
+title:  Query in the Cloud
 ---
 
 ## Launch Google Colab
