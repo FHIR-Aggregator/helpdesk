@@ -19,7 +19,7 @@ The FHIR Aggregator server acts as a centralized repository for diverse healthca
   <li>Clinical data: Patient demographics, conditions, medications, observations, and procedures.</li>
   <li>Research studies: Information about research projects, participants, and study protocols.</li>
   <li>OMICS data associated with Specimens</li>
-  <li>Learn more about the data sets we aggregate <a href="/about_us/ourdata">
+  <li>Learn more about the data sets we aggregate <a href="/latest/about_us/ourdata">
      here</a> </li>
 </ul>
 </div>
