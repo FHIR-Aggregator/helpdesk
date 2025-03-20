@@ -94,6 +94,7 @@ nav:
        - Accessing the Vocabulary: documentation/vocabulary.ipynb
        - Visualize search results: documentation/heatmaps.ipynb
        - Using FHIR extensions: documentation/fhirextensions.ipynb
+       - Vobabulary filtering examples: documentation/filterexamples.ipynb
   - About Us:
     - about_us/index.md
     - about_us/ourdata.md
