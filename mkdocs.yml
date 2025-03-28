@@ -88,7 +88,7 @@ nav:
     - Download our query tool: getting_started/install.md
     - Query with curl: getting_started/curl.ipynb
   - Documentation:
-    - fhir-aggregator: documentation/fhiraggregatorintro.pynb
+    - fhir-aggregator: documentation/fhiraggregatorintro.ipynb
     - fhir-query:
         - fhir-query man page: documentation/fhirqueryman.ipynb
         - fhir-query: documentation/fhirquery.ipynb
