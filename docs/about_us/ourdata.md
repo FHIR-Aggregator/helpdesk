@@ -1,6 +1,7 @@
 ---
 title:  Our data sources
 ---
+The data in FHIR-Aggregator is a snapshot of the following sources' data as of 3/31/2025.
 
 ##![](../images/genomic-data-commons-gdc_0.png)[Cellosaurus:octicons-link-external-16:](https://www.cellosaurus.org/){:target="_blank"}
 
