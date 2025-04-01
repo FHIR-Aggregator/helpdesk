@@ -50,7 +50,7 @@ Our command-line tool fhir-query (aka fq) is designed to simplify the process of
 
     Fill in the blanks in our pre-built queries to find the data you need without installing a thing. Find the data you need, fetch all the files, and answer your scientific questions *all without ever touching the command line.*
     <a
-      href="https://colab.research.google.com/github/FHIR-Aggregator/helpdesk/tree/main/docs/Welcome.ipynb"
+      href="https://colab.research.google.com/drive/1tSnWjy0P73YaqcZKp8RPvv11XyVzQW-v#scrollTo=2cChEDmyWvbS"
       title="Try it now"
       class="md-button md-button">
         Launch FHIR-Aggregator in the cloud
