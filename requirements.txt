@@ -3,7 +3,7 @@ pymdown-extensions
 mkdocs-material-extensions
 mkdocs-jupyter
 itables
-git+https://github.com/FHIR-Aggregator/fhir-query.git
+fhir-aggregator-client==0.1.8
 lifelines
 jq
 matplotlib
