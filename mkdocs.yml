@@ -97,6 +97,7 @@ nav:
        - Visualize search results: documentation/heatmaps.ipynb
        - Using FHIR extensions: documentation/fhirextensions.ipynb
        - Vobabulary filtering examples: documentation/filterexamples.ipynb
+       - Survival curve example: documentation/survivalcurves.ipynb
   - About Us:
     - about_us/index.md
     - about_us/ourdata.md
