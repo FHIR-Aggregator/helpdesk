@@ -3,8 +3,11 @@ pymdown-extensions
 mkdocs-material-extensions
 mkdocs-jupyter
 itables
-fhir-aggregator-client==0.1.8
+fhir-aggregator-client==0.2.2
 lifelines
 jq
 matplotlib
 seaborn
+# To run locally: needed to add 
+# jupyter_contrib_nbextensions
+# notebook
